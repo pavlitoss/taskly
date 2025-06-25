@@ -1,16 +1,39 @@
-# taskly
+# ✅ Taskly — Simple Flutter To-Do App
 
-A new Flutter project that helps you track your tasks.
+**Taskly** is a minimalist and efficient **to-do list app** built with **Flutter**, designed for local use without any internet dependency. It stores your tasks securely on your device using a local database.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🧾 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 📝 Add, edit, and delete tasks
+- ✅ Mark tasks as completed or pending
+- 📦 Persistent storage with local database (e.g., `sqflite` or `hive`)
+- 💡 Clean and simple UI
+- 📱 Optimized for both Android and iOS
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tech Stack
+
+- **Flutter** — UI toolkit for building cross-platform apps
+- **Dart** — Language used by Flutter
+- **Local DB** — Using `sqflite`, `hive`, or similar for offline persistence
+- **Provider / setState** — (depending on your state management choice)
+
+---
+
+## 📦 Installation
+
+### Prerequisites:
+- Flutter SDK installed
+- Android Studio / VSCode / Xcode
+- Emulator or physical device
+
+### Run Locally:
+
+```bash
+git clone https://github.com/your-username/taskly.git
+cd taskly
+flutter pub get
+flutter run
