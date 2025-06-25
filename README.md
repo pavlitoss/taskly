@@ -33,7 +33,7 @@
 ### Run Locally:
 
 ```bash
-git clone https://github.com/your-username/taskly.git
+git clone https://github.com/pavlitoss/taskly.git
 cd taskly
 flutter pub get
 flutter run
